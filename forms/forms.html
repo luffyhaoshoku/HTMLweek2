@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title> Forms </title>
+    </header>
+
+    <body>
+        <h1>Forms</h1>
+
+        <form>
+            <label for="Aname">Favourite Anime:</label><br>
+            <input type="text" id="Aname" Anime="Aname">
+        </form>
+
+        <form>
+            <label for="vol">Volume (between 0 and 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50">
+            
+            <input type="color" value="000000">
+            <input type="month">
+            <input type="radio">
+            <input type="email" value="hello" placeholder="writeanemail">
+            <input type="password">
+
+            <input type="submit">
+        </form>
+        <form>
+        <label for="City">Choose a City:</label>
+        <select city="City" id="City">
+            <optgroup label="North Africa">
+                <option value="Egypt">Egypt</option>
+                <option value="Morocco">Morocco</option>                     
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="Finland">Finland</option>
+                <option value="Italy">Italy</option>
+            </optgroup>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+
+    </body>
+
+</html>
