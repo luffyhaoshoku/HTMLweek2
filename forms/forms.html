@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        body {background-color: black;}
+        body {color: red;}
+    </style>
     <header>
         <title> Forms </title>
+        
     </header>
 
-    <body>
+    <body style ="background-color: #0d6443;">
         <h1>Forms</h1>
 
         <form>
@@ -14,18 +19,19 @@
 
         <form>
             <label for="vol">Volume (between 0 and 50):</label>
-            <input type="range" id="vol" name="vol" min="0" max="50">
+            <input type="range" id="vol" name="vol" min="0" max="50"><br>
             
-            <input type="color" value="000000">
-            <input type="month">
-            <input type="radio">
+            <input type="color" value="000000"><br>
+            <input type="month"><br>
+            <input type="radio"><br>
             <input type="email" value="hello" placeholder="writeanemail">
-            <input type="password">
+            <input type="password"><hr>
 
             <label for="check">CHECKERS:</label>
-            <input type="checkbox" id="check" name="check" value="yes">
+            <input type="checkbox" id="check" name="check" value="yes"><br><hr>
 
             <input type="submit">
+            <input type="reset">
         </form>
         <form>
         <label for="City">Choose a City:</label>
@@ -40,6 +46,7 @@
             </optgroup>
         </select>
         <input type="submit" value="Submit">
+        <input type="reset">
     </form>
 
     </body>
